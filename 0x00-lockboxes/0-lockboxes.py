@@ -3,7 +3,7 @@
 
 
 def canUnlockAll(boxes):
-    """ethod that determines if all the boxes can be opened."""
+    """Method that determines if all the boxes can be opened."""
 
     unlocked = [0]
     for box_id, box in enumerate(boxes):
